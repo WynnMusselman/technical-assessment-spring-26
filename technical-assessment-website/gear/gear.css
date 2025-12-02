@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E7ECEF;
+}
+
+/* header */
+header{
+    padding: 2%;
+    color: #E7ECEF;
+    background-color: #23456C;
+}
+
+header a {
+    text-decoration: none;
+    color: #E7ECEF;
+}
+
+header h1{
+    font: bold calc(2px + 4vw) "times", Arial, Serif;
+}
+
+header h2{
+    font: italic bold calc(2px + 2.5vw) "times", Arial, Serif;
+    /* padding: 1%; */
+}
+
+#on-guard{
+    padding-right:5%;
+}
+
+#ready{
+    padding-left: 7%;
+}
+
+
+header p{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7
+}
+
+/* navigation */
+nav{
+    background-color: #6096BA;
+    padding: 3%;
+}
+
+nav ul{
+    /* Display: flex;
+    Flex-direction: row; */
+    List-style: none;
+    Padding-left: 0;
+
+}
+
+nav ul li{
+    Display: inline;
+    Padding: 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #292928;
+    font: calc(2px + 1.5vw) "times", Arial, Serif;
+}
+
+/* main */
+main{
+    width: 80vw;
+    height: 100%;
+    padding: 3%;
+    margin: auto;
+}
+
+main h1{
+    text-align: center;
+    font: calc(2px + 3vw) "times", Arial, Serif;
+}
+
+
+main h2{
+    text-align: center;
+    font: calc(2px + 2.5vw) "times", Arial, Serif;
+    padding-top: 3%;
+}
+
+main h3{
+    font: calc(2px + 2.1vw) "times", Arial, Serif;
+    text-align: center;
+    padding-top: 3%;
+}
+
+main p{
+    color: black;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+    text-align: center;
+}
+
+main ul li{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+/* white uniform section */
+main #white-uni{
+    padding: 2%;
+    display: inline;
+    text-align: center; 
+    width: 100%;
+}
+
+main #white-uni-text{
+    width: 80%;
+}
+
+main #white-uni-text ul{
+    text-align: left;
+    padding-left: 8%;
+}
+
+main #white-uni-img img{
+    max-width: 30vw;
+    max-height: 30vh;
+    /* padding: 2%; */
+}
+
+main #white-uni-img p{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    text-align: center;
+}
+
+/* weapon specific gear */
+.weapon-gear{
+    /* padding: 2%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.weapon-gear .gear-text{
+    width: 70%;
+}
+
+.weapon-gear .gear-img{
+    width: 30%;
+}
+
+.weapon-gear .gear-img p{
+    font: calc(2px + 1vw) "times", Arial, Serif;
+    text-align: left;
+}
+
+.weapon-gear ul{
+    text-align: left;
+}
+
+.weapon-gear ul li{
+    padding: 2%;
+}
+
+.weapon-gear img{
+    max-width: 20vw;
+    display:block;
+    padding: 4%
+}
+
+
+/* comments */
+#comment-area{
+    background-color: #C9E2F7;
+    width: 100%;
+    text-align: left;
+    padding: 2%;
+}
+
+#comment-content{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+
+#comment-area h2{
+    font: bold calc(2px + 2.5vw) "times", Arial, Serif;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#comment-content h3{
+    font: bold calc(2px + 1.6vw) "times", Arial, Serif;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* user input */
+label{
+    font: italic calc(2px + 1.1vw) "times", Arial, Serif;
+    color: #23456C;
+    padding: 1%;
+}
+
+#nameInput{
+    background-color: #E7ECEF;
+    border: 2px solid #6096BA;
+    color: #292928;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 25%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+#nameInput:focus{
+    outline: none;
+    border: 2px solid #23456C;
+}
+
+#nameInput::placeholder{
+    color: #6096BA;
+    font: italic calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+
+/* add comment */
+#commentInput{
+    background-color: #E7ECEF;
+    border: 2px solid #6096BA;
+    color: #292928;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+}
+
+
+#commentInput:focus{
+    outline: none;
+    border: 2px solid #23456C;
+}
+
+#commentInput::placeholder{
+    color: #6096BA;
+    font: italic calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+/* submit button */
+#submitComment{
+    background-color: #6096BA;
+    color: #E7ECEF;
+    border: none;
+    border-radius: 10%;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+}
+
+#submitComment:hover{
+    background-color: #416b87;
+    color: #E7ECEF;
+    transition-duration: 0.5s;
+}
+
+
+/* comment section */
+#commentSection{
+    background-color: #E7ECEF;
+    border: 2px solid #23456C;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#commentSection th{
+    font: bold calc(2px + 1.3vw) "times", Arial, Serif;
+    color: #6096BA;
+    margin: 1%;
+}
+
+#commentSection td{
+    padding: 2% 0 2% 0;
+}
+
+/*quiz question */
+#gear-quiz{
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+}
+
+ 
+#quiz-h2{
+    text-align: center;
+    padding-top: 3%;
+}
+
+#quiz-options{
+    width: 40%;
+}
+
+#quiz-img{
+    width: 60%;
+    padding: 3%;
+}
+
+#quiz-options h3{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+#quiz-options p{
+    font: italic calc(2px + 1.1vw) "times", Arial, Serif;
+}
+
+#quiz-options button{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    display: block;
+    margin: 5% auto;
+    padding: 2%;
+    width: 45%;
+
+    border: 2px solid #23456C;
+    background-color: #C9E2F7;
+    color: #23456C;
+}
+
+#quiz-options button:hover{
+    background-color: #99b7d1;
+    transition-duration: 0.5s;
+}
+
+
+#quiz-img img{
+    max-width: 40vw;
+    padding: 2%;
+}
+
+
+h3{
+    font: calc(2px + 1.6vw) "times", Arial, Serif;
+}
+
+h4{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    text-align: center;
+    /* color: #910707; */
+}
+
+#ans-reveal{
+    padding: 2%;
+}
+
+/* quiz results */
+#quiz-results{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 40%;
+    margin: auto;
+}
+
+#quiz-results h2{
+    padding-top: 2%;
+}
+
+
+#quiz-results progress{
+    width: 80%;
+}
+
+/* footer */
+footer{
+    background-color: #23456C;
+    padding: 1%;
+}
+
+footer p, footer a{
+   font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #white-uni-img img{
+        max-width: 15vw;
+        height: 15vw;
+        display:inline;
+    }
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E7ECEF;
+}
+
+/* header */
+header{
+    padding: 2%;
+    background-color: #23456C;
+}
+
+header a {
+    text-decoration: none;
+    color: #E7ECEF;
+}
+
+header h2{
+    font: italic bold calc(2px + 2.5vw) "times", Arial, Serif;
+    /* padding: 1%; */
+}
+
+#on-guard{
+    padding-right:5%;
+}
+
+#ready{
+    padding-left: 7%;
+}
+
+header h1{
+    font: bold calc(2px + 4vw) "times", Arial, Serif;
+}
+
+header p{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7;
+}
+
+/* navigation */
+nav{
+    background-color: #6096BA;
+    padding: 3%;
+}
+
+nav ul{
+    /* Display: flex;
+    Flex-direction: row; */
+    list-style: none;
+    padding-left: 0;
+
+}
+
+nav ul li{
+    display: inline;
+    padding: 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #292928;
+    font: calc(2px + 1.5vw) "times", Arial, Serif;
+}
+
+/* main */
+main{
+    width: 80%;
+    padding: 3%;
+    margin: auto;    
+}
+
+#summary-text{
+    text-align: left;
+}
+
+#summary-text h2{
+    text-align: center;
+    padding-top: 3%;
+}
+
+main h2{
+    font: calc(2px + 2.5vw) "times", Arial, Serif;
+}
+
+main h3{
+    text-align: left;
+    font: calc(2px + 2vw) "times", Arial, Serif;
+}
+
+main p{
+    color: black;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+}
+
+main #yt-vid{
+    padding: 4%;
+}
+
+main #yt-vid p{
+    padding: 0;
+    margin: auto;
+    width: 60%;
+}
+
+main iframe{
+    max-width: 50vw;
+    max-height: 50vh;
+} 
+
+/* user input */
+input{
+    background-color: #E7ECEF;
+    border: 2px solid #6096BA;
+    color: #292928;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 25%;
+    padding: 1%;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #23456C;
+}
+
+input::placeholder{
+    color: #6096BA;
+    font: italic calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+/* submit button */
+#submitName{
+    background-color: #6096BA;
+    color: #E7ECEF;
+    border: none;
+    border-radius: 10%;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+}
+
+#submitName:hover{
+    background-color: #416b87;
+    color: #E7ECEF;
+    transition-duration: 0.5s;
+}
+
+/* footer */
+footer{
+    background-color: #23456C;
+    padding: 1%;
+}
+
+footer p, footer a{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7;
+}

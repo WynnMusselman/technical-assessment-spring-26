@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E7ECEF;
+}
+
+/* header */
+header{
+    padding: 2%;
+    background-color: #23456C;
+}
+
+header a {
+    text-decoration: none;
+    color: #E7ECEF;
+}
+
+header h2{
+    font: italic bold calc(2px + 2.5vw) "times", Arial, Serif;
+    /* padding: 1%; */
+}
+
+#on-guard{
+    padding-right:5%;
+}
+
+#ready{
+    padding-left: 7%;
+}
+
+header h1{
+    font: bold calc(2px + 4vw) "times", Arial, Serif;
+}
+
+header p{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7
+}
+
+/* navigation */
+nav{
+    background-color: #6096BA;
+    padding: 3%;
+}
+
+nav ul{
+    /* Display: flex;
+    Flex-direction: row; */
+    List-style: none;
+    Padding-left: 0;
+
+}
+
+nav ul li{
+    Display: inline;
+    Padding: 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #292928;
+    font: calc(2px + 1.5vw) "times", Arial, Serif;
+}
+
+/* main */
+main{
+    width: 80%;
+    padding: 3%;
+    margin: auto;
+    
+}
+
+main h1{
+    text-align: center;
+    font: calc(2px + 3vw) "times", Arial, Serif;
+}
+
+main h2{
+    text-align: left;
+    font: calc(2px + 2.5vw) "times", Arial, Serif;
+    padding-top: 3%;
+}
+
+main p{
+    color: black;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+    text-align: left;
+}
+
+/* techniques */
+iframe{
+    max-width: 100%;
+}
+
+main img{
+    max-width: 30vw;
+}
+
+
+/*quiz question */
+#tech-quiz{
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+ 
+#quiz-h2{
+    text-align: center;
+    padding-top: 3%;
+}
+
+#quiz-options{
+    width: 40%;
+}
+
+#quiz-img{
+    width: 60%;
+    padding-left: 7%;
+}
+
+#quiz-options h3{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+#quiz-options p{
+    font: italic calc(2px + 1.1vw) "times", Arial, Serif;
+}
+
+#quiz-options button{
+    font: calc(2px + 1.1vw) "times", Arial, Serif;
+    display: block;
+    margin: 5% auto;
+    padding: 2%;
+    width: 45%;
+
+    border: 2px solid #23456C;
+    background-color: #C9E2F7;
+    color: #23456C;
+}
+
+#quiz-options button:hover{
+    background-color: #99b7d1;
+    transition-duration: 0.5s;
+}
+
+
+#quiz-img img{
+    max-width: 40vw;
+    /* padding: 2%; */
+}
+
+
+h3{
+    font: calc(2px + 1.6vw) "times", Arial, Serif;
+}
+
+h4{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    text-align: center;
+    /* color: #910707; */
+}
+
+#ans-reveal{
+    padding: 2%;
+}
+
+
+/* quiz results */
+#quiz-results{
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 40%;
+    margin: auto;
+}
+
+#quiz-results h2{
+    padding-top: 2%;
+}
+
+
+#quiz-results progress{
+    width: 80%;
+}
+
+
+/* comments */
+#comment-area{
+    background-color: #C9E2F7;
+    width: 100%;
+    text-align: left;
+    padding: 2%;
+}
+
+#comment-content{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+
+#comment-area h2{
+    font: bold calc(2px + 2.5vw) "times", Arial, Serif;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#comment-content h3{
+    font: bold calc(2px + 1.6vw) "times", Arial, Serif;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* user input */
+label{
+    font: italic calc(2px + 1.1vw) "times", Arial, Serif;
+    color: #23456C;
+    padding: 1%;
+}
+
+#nameInput{
+    background-color: #E7ECEF;
+    border: 2px solid #6096BA;
+    color: #292928;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 25%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+#nameInput:focus{
+    outline: none;
+    border: 2px solid #23456C;
+}
+
+#nameInput::placeholder{
+    color: #6096BA;
+    font: italic calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+
+/* add comment */
+#commentInput{
+    background-color: #E7ECEF;
+    border: 2px solid #6096BA;
+    color: #292928;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+}
+
+
+#commentInput:focus{
+    outline: none;
+    border: 2px solid #23456C;
+}
+
+#commentInput::placeholder{
+    color: #6096BA;
+    font: italic calc(2px + 1.3vw) "times", Arial, Serif;
+}
+
+/* submit button */
+#submitComment{
+    background-color: #6096BA;
+    color: #E7ECEF;
+    border: none;
+    border-radius: 10%;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    padding: 1%;
+}
+
+#submitComment:hover{
+    background-color: #416b87;
+    color: #E7ECEF;
+    transition-duration: 0.5s;
+}
+
+
+/* comment section */
+#commentSection{
+    background-color: #E7ECEF;
+    border: 2px solid #23456C;
+    font: calc(2px + 1.3vw) "times", Arial, Serif;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#commentSection th{
+    font: bold calc(2px + 1.3vw) "times", Arial, Serif;
+    color: #6096BA;
+    margin: 1%;
+}
+
+#commentSection td{
+    padding: 2% 0 2% 0;
+}
+
+/* game */
+
+#intruc-canvas h4, #intruc-canvas p{
+    text-align: start;
+    padding-left: 20%;
+    color: #23456C;
+}
+
+
+#game{
+    border: 1px solid #292928;
+    background-color: #C9E2F7;
+    height: 20vh;
+    width: 60vw;
+}
+
+
+#fencer-stand, #fencer-lunge{
+    display: none;
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+#curr-move{
+    text-align: center;
+    font: calc(2px + 2.5vw) "times", Arial, Serif;
+}
+
+#mobile-btns button{
+    border: 2px solid #23456C;
+    background-color: #C9E2F7;
+    font: calc(2px + 1.5vw) "times", Arial, Serif;
+    display: none;
+}
+
+#mobile-btns button:active{
+    background-color: #6096BA;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #23456C;
+    padding: 1%;
+}
+
+footer p, footer a{
+   font: calc(2px + 1.1vw) "times", Arial, Serif;
+    color:#C9E2F7
+}
+
+
+@media screen and (max-width: 750px){
+    #mobile-btns button{
+        display:inline;
+    }
+}
+
